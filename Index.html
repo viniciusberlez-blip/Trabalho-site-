@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tactical Hub - Arcos & Modelos de Airsoft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode"> <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo"><i class="fa-solid fa-crosshairs"></i> Tactical<span>Hub</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#intro">Conceito</a></li>
+                <li><a href="#stats">Dados</a></li>
+                <li><a href="#tools">Simulador</a></li>
+                <li><a href="#practices">Boas Práticas</a></li>
+                <li><a href="#curiosities">Fatos</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Alternar Tema"><i class="fa-solid fa-sun"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content scroll-reveal">
+            <span class="badge">Novos & Usados</span>
+            <h1>Domine o Campo com os Melhores Modelos</h1>
+            <p>A plataforma definitiva para operadores de Airsoft e Arquearia. Encontre a precisão, durabilidade e a performance que o seu jogo exige.</p>
+            <a href="#tools" class="btn-cta">Explorar Ferramentas <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </header>
+
+    <section id="intro" class="section section-padding">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">O Universo Airsoft & Arquearia</h2>
+            <div class="grid-2 scroll-reveal">
+                <div class="intro-text">
+                    <h3>Precisão, Estratégia e Respeito</h3>
+                    <p>O Airsoft e a Arquearia moderna vão muito além do esporte: são disciplinas que exigem foco, coordenação e uma comunidade baseada na honra. Seja operando com arcos compostos de última geração ou rifles AEG/GBB (novos e usados), a escolha do equipamento certo define o seu resultado em campo.</p>
+                    <p>Nosso objetivo é guiar novos jogadores e veteranos na análise de métricas de performance, regulamentações e na escolha do arsenal ideal para cada cenário simulado.</p>
+                </div>
+                <div class="intro-cards">
+                    <div class="pilar-card">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h4>Honra e Segurança</h4>
+                        <p>Pilares fundamentais do esporte, garantindo a integridade e diversão de todos os operadores.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <i class="fa-solid fa-bullseye"></i>
+                        <h4>Alta Performance</h4>
+                        <p>Ajustes de Hop-Up, FPS e peso das BBs determinam o agrupamento perfeito dos seus disparos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats" class="section section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Métricas de Performance e Mercado</h2>
+            <p class="section-subtitle scroll-reveal">Análise técnica comparativa de alcance, peso e depreciação de equipamentos novos vs. usados.</p>
+            
+            <div class="grid-2 scroll-reveal">
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tipo de Equipamento</th>
+                                <th>Munição/Peso</th>
+                                <th>FPS Médio</th>
+                                <th>Alcance Efetivo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Rifle Airsoft (AEG Padrão)</td>
+                                <td>BBs 0.25g</td>
+                                <td>380 FPS</td>
+                                <td>45 metros</td>
+                            </tr>
+                            <tr>
+                                <td>Sniper Airsoft (Bolt Action)</td>
+                                <td>BBs 0.40g</td>
+                                <td>500 FPS</td>
+                                <td>70 metros</td>
+                            </tr>
+                            <tr>
+                                <td>Arco Composto Tático</td>
+                                <td>Flechas Carbono</td>
+                                <td>310 FPS</td>
+                                <td>50 metros</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="chart-box">
+                    <h4>Desempenho: Novo vs Usado (Após 1 ano)</h4>
+                    <div class="chart-container">
+                        <div class="chart-bar-group">
+                            <span>Alcance (Novo)</span>
+                            <div class="bar-wrapper"><div class="bar" style="--progress: 95%;">95%</div></div>
+                        </div>
+                        <div class="chart-bar-group">
+                            <span>Alcance (Usado)</span>
+                            <div class="bar-wrapper"><div class="bar" style="--progress: 88%;">88%</div></div>
+                        </div>
+                        <div class="chart-bar-group">
+                            <span>Consistência FPS (Novo)</span>
+                            <div class="bar-wrapper"><div class="bar" style="--progress: 98%;">98%</div></div>
+                        </div>
+                        <div class="chart-bar-group">
+                            <span>Consistência FPS (Usado)</span>
+                            <div class="bar-wrapper"><div class="bar" style="--progress: 82%;">82%</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="section section-padding">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Simulador Tático</h2>
+            <div class="grid-2 scroll-reveal">
+                
+                <div class="tool-card">
+                    <h3><i class="fa-solid fa-calculator"></i> Calculadora de Energia (Joules)</h3>
+                    <p>Insira a velocidade (FPS) e o peso da BB para calcular o impacto real e verificar se está nas regras do campo.</p>
+                    <div class="form-group">
+                        <label for="calc-fps">Velocidade (FPS):</label>
+                        <input type="number" id="calc-fps" value="380" placeholder="Ex: 380">
+                    </div>
+                    <div class="form-group">
+                        <label for="calc-weight">Peso da BB (Gramas):</label>
+                        <select id="calc-weight">
+                            <option value="0.20">0.20g</option>
+                            <option value="0.25" selected>0.25g</option>
+                            <option value="0.28">0.28g</option>
+                            <option value="0.30">0.30g</option>
+                            <option value="0.40">0.40g</option>
+                        </select>
+                    </div>
+                    <button onclick="calcularEnergia()" class="btn-action">Calcular Impacto</button>
+                    <div id="calc-result" class="result-box">Resultado: --</div>
+                </div>
+
+                <div class="tool-card">
+                    <h3><i class="fa-solid fa-code-compare"></i> Comparador: Novo vs Usado</h3>
+                    <p>Selecione e analise dinamicamente as vantagens de cada categoria de investimento.</p>
+                    <div class="form-group">
+                        <label for="compare-select">Escolha o Perfil:</label>
+                        <select id="compare-select" onchange="compararEquipamentos()">
+                            <option value="">-- Selecione --</option>
+                            <option value="novo">Equipamento Totalmente Novo</option>
+                            <option value="usado">Equipamento Usado (Segunda Mão)</option>
+                        </select>
+                    </div>
+                    <div id="compare-result" class="compare-display">
+                        <p class="placeholder-text">Selecione uma opção acima para visualizar o comparativo dinâmico.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="practices" class="section section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Uso Consciente e Manutenção Inovadora</h2>
+            <div class="grid-3 scroll-reveal">
+                <div class="practice-card">
+                    <div class="icon-circle"><i class="fa-solid fa-leaf"></i></div>
+                    <h4>BBs Biodegradáveis</h4>
+                    <p>Uso obrigatório em campos modernos. Preservam a fauna e flora degradando-se naturalmente sem deixar resíduos tóxicos.</p>
+                </div>
+                <div class="practice-card">
+                    <div class="icon-circle"><i class="fa-solid fa-wrench"></i></div>
+                    <h4>Ciclo de Vida (Usados)</h4>
+                    <p>A compra de usados evita o descarte prematuro e estimula a economia circular dentro da comunidade de operadores.</p>
+                </div>
+                <div class="practice-card">
+                    <div class="icon-circle"><i class="fa-solid fa-battery-three-quarters"></i></div>
+                    <h4>Baterias LiPo Seguras</h4>
+                    <p>Descarte e carregamento em bolsas térmicas apropriadas (Lipo Bags) evitam acidentes e aumentam a vida útil da sua AEG.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curiosities" class="section section-padding">
+        <div class="container">
+            <h2 class="section-title scroll-reveal">Fatos e Estatísticas de Campo</h2>
+            
+            <div class="counter-grid scroll-reveal">
+                <div class="counter-box">
+                    <span class="counter" data-target="150">0</span><span>m/s</span>
+                    <p>Velocidade Máxima Arcos</p>
+                </div>
+                <div class="counter-box">
+                    <span class="counter" data-target="550">0</span><span>+</span>
+                    <p>FPS Limite Snipers</p>
+                </div>
+                <div class="counter-box">
+                    <span class="counter" data-target="45">0</span><span>%</span>
+                    <p>Economia em Usados</p>
+                </div>
+            </div>
+
+            <div class="grid-2 scroll-reveal" style="margin-top: 40px;">
+                <div class="curiosity-card">
+                    <h5>Você sabia?</h5>
+                    <p>O Hop-up utiliza o <strong>Efeito Magnus</strong>. Ao rotacionar a BB para trás, cria-se uma diferença de pressão no ar que faz com que ela flutue, aumentando drasticamente o alcance útil do disparo sem precisar elevar a potência.</p>
+                </div>
+                <div class="curiosity-card">
+                    <h5>Origem do Airsoft</h5>
+                    <p>O esporte surgiu no Japão na década de 1970, devido às severas restrições locais à posse de armas de fogo. A solução foi criar réplicas plásticas perfeitas movidas a gás.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container text-center scroll-reveal">
+            <h3>O Futuro do Esporte Começa na Estratégia</h3>
+            <p>Seja com arcos tradicionais ou os rifles táticos mais avançados do mercado, a evolução do jogador depende do conhecimento prático e do respeito às regras do jogo. Equipe-se com inteligência.</p>
+            <hr>
+            <p class="copyright">&copy; 2026 Tactical Hub. Todos os direitos reservados. Projetado para Operadores Modernos.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Voltar ao topo"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
